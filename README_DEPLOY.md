@@ -60,7 +60,7 @@ DEFAULT_CONTROLLER_PASSWORD=control123
 4. **Root Directory**: Dejar vacío (ya que subiremos solo el backend)
 5. **Runtime**: Python 3
 6. **Build Command**: `pip install -r requirements.txt`
-7. **Start Command**: `python main.py`
+7. **Start Command**: `gunicorn application:application --host 0.0.0.0 --port $PORT`
 
 ### 🗄️ Inicialización de la Base de Datos
 
