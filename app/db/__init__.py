@@ -1,0 +1,1 @@
+# app/db/__init__.py - Paquete de configuración de base de datos

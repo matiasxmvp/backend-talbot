@@ -1,0 +1,35 @@
+# requirements.txt - Dependencias del proyecto
+# Versiones compatibles con Python 3.13 en Windows
+
+# Dependencias principales
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+gunicorn==23.0.0
+sqlalchemy==2.0.36
+
+# Autenticación y seguridad
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.2.1
+python-multipart==0.0.12
+
+# Validación de datos
+pydantic==2.10.3
+pydantic-settings==2.6.1
+email-validator==2.2.0
+
+# Variables de entorno
+python-dotenv==1.0.1
+
+# Base de datos PostgreSQL
+# Usar versión específica compatible con Python 3.13 y AWS EB
+psycopg2-binary==2.9.7
+
+# Dependencias adicionales para seguridad
+cryptography==44.0.0
+
+# Herramientas de desarrollo (opcional)
+# pytest==8.3.3
+# pytest-asyncio==0.24.0
+# black==24.10.0
+# flake8==7.1.1

@@ -1,0 +1,74 @@
+# Archivos que Elastic Beanstalk debe ignorar
+
+# Archivos de desarrollo
+.env
+.env.local
+.env.development
+.env.staging
+.env.production
+
+# Docker (usar solo plataforma Python nativa)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Archivos de desarrollo local
+*.db
+*.sqlite
+*.sqlite3
+app.db
+data/
+
+# Logs
+*.log
+logs/
+
+# Cache de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+.env/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de documentación de desarrollo
+README.md
+REFACTORING_GUIDE.md
+
+# Scripts de desarrollo
+init_db.py
+setup_database.py
+populate_hotel_data.py
+seed_data.py
+
+# Archivos de backup
+*.bak
+*.backup
+*.old
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos de testing
+test_*
+*_test.py
+tests/
+
+# Archivos de configuración local
+aws-env-template.txt

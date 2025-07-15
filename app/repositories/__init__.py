@@ -1,0 +1,1 @@
+# app/repositories/__init__.py - Paquete de repositorios para acceso a datos

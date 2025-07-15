@@ -1,0 +1,1 @@
+# app/core/__init__.py - Paquete de configuración y utilidades centrales
