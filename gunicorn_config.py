@@ -1,7 +1,7 @@
 # gunicorn_config.py - Configuración para Gunicorn con FastAPI/Uvicorn
 import multiprocessing
 
-bind = "0.0.0.0:8080"
+bind = f"0.0.0.0:{os.getenv('PORT', '8080')}"
 workers = 4
 worker_class = "uvicorn.workers.UvicornWorker"
 worker_connections = 1000
