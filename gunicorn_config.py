@@ -2,7 +2,7 @@
 import multiprocessing
 import os
 
-bind = f"0.0.0.0:{os.getenv('PORT', '8080')}"
+bind = f"0.0.0.0:{os.getenv('PORT')}"
 workers = 4
 worker_class = "uvicorn.workers.UvicornWorker"
 worker_connections = 1000
