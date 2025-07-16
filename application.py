@@ -9,6 +9,5 @@ application = app
 
 # Información adicional para debugging en Elastic Beanstalk
 if __name__ == "__main__":
-    print("Application module loaded successfully for Elastic Beanstalk")
     print(f"Application type: {type(application)}")
     print(f"Application title: {getattr(application, 'title', 'N/A')}")
